@@ -1,0 +1,48 @@
+.jumbotron {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  #time {
+    margin-bottom: 40px;
+  }
+  
+  #schedule {
+    margin-bottom: 40px;
+  }
+  .hour {
+    box-sizing: border-box;
+    border: 1px solid lightgray;
+    border-left: none;
+    border-bottom: none;
+    width: 90px;
+    padding: 5px 10px;
+  }
+  .hour p {
+    font-size: 14px;
+    color: slategray;
+  }
+  .hourInput {
+    box-sizing: border-box;
+    width: calc(100% - 130px);
+    border: none;
+    border-top: 1px solid lightslategray;
+    background-color: #f0f0f5;
+    padding: 5px;
+  }
+  .last-hour,
+  .last-hourInput {
+    border-bottom: 1px solid #bbb;
+  }
+  .saveBtn {
+    box-sizing: border-box;
+    width: 40px;
+    border: 1px solid #bbb;
+    border-bottom: none;
+    background-color: #888;
+    border-radius: 0 10px 10px 0;
+  }
+  .fa-save {
+    color: lightskyblue;
+  }
+  

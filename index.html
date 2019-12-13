@@ -1,0 +1,162 @@
+<!-- Add placeholder text to form divs -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/style.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/51e99565ca.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.24.0/moment.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <title>Day Planner</title>
+  </head>
+    <body>
+      <header>
+        <div class="jumbotron jumbotron-fluid">
+          <div class="container text-center">
+            <h1>Work Day Scheduler</h1>
+            <h6>A simple calendar app for scheduling your work day</h6>
+          </div>
+        </div>
+      </header>
+
+      <section>
+        <div class="container text-center">
+          <h2 id="date"></h2>
+          <h4 id="time"></h4>
+        </div>
+      </section>
+
+      <section id="schedule">
+        <div class="container">
+          <!-- 09AM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>09:00 AM</p>
+              </div>
+              <textarea class="hourInput" id="09AM" rows="2"></textarea>
+              <button class="saveBtn" id="09AMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 10AM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>10:00 AM</p>
+              </div>
+              <textarea class="hourInput" id="10AM" rows="2"></textarea>
+              <button class="saveBtn" id="10AMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 11AM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>11:00 AM</p>
+              </div>
+              <textarea class="hourInput" id="11AM" rows="2"></textarea>
+              <button class="saveBtn" id="11AMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 12PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>12:00 PM</p>
+              </div>
+              <textarea class="hourInput" id="12PM" rows="2"></textarea>
+              <button class="saveBtn" id="12PMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 01PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>1:00 PM</p>
+              </div>
+              <textarea class="hourInput" id="01PM" rows="2"></textarea>
+              <button class="saveBtn" id="01PMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 02PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>2:00 PM</p>
+              </div>
+              <textarea class="hourInput" id="02PM" rows="2"></textarea>
+              <button class="saveBtn" id="02PMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 03PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>3:00 PM</p>
+              </div>
+              <textarea class="hourInput" id="03PM" rows="2"></textarea>
+              <button class="saveBtn" id="03PMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 04PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour">
+                <p>4:00 PM</p>
+              </div>
+              <textarea class="hourInput" id="04PM" rows="2"></textarea>
+              <button class="saveBtn" id="04PMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+
+          <!-- 05PM -->
+          <div class="row">
+            <div class="col d-flex justify-content-center">
+              <div class="hour last-hour">
+                <p>5:00 PM</p>
+              </div>
+              <textarea
+                class="hourInput last-hourInput"
+                id="05PM"
+                rows="2"
+              ></textarea>
+              <button class="saveBtn" id="05PMsave">
+                <i class="far fa-save"></i>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+    <script src="assets/memory.js"></script>
+    <script src="assets/script.js"></script>
+
+    </body>
+</html>
