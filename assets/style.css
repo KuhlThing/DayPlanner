@@ -32,17 +32,17 @@
   }
   .last-hour,
   .last-hourInput {
-    border-bottom: 1px solid #bbb;
+    border-bottom: 1px solid lightgray;
   }
   .saveBtn {
     box-sizing: border-box;
     width: 40px;
     border: 1px solid #bbb;
     border-bottom: none;
-    background-color: #888;
+    background-color: lightslategray;
     border-radius: 0 10px 10px 0;
   }
   .fa-save {
-    color: lightskyblue;
+    color: lightgreen;
   }
   
